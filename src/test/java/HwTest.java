@@ -63,7 +63,7 @@ public class HwTest {
     vars.put("win9075", waitForWindow(2000));
     driver.switchTo().window(vars.get("win9075").toString());
     driver.findElement(By.linkText("대학소개")).click();
-    driver.findElement(By.linkText("프로필")).click();
+    driver.findElement(By.linkText("취임사")).click();
 
     driver.navigate().to("https://www.google.com");
     driver.findElement((By.name("q"))).sendKeys("aws", Keys.ENTER);
