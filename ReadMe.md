@@ -1,1 +1,1 @@
-젠킨스 웹훅 trigger ec2 연결 테스트
+젠킨스 웹훅 trigger ec2 연결 테스트 실습
