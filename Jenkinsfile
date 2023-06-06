@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('git') {
             steps {
-                git branch: 'main', url: 'https://github.com/cofls6581/Jenkins-Webhook-Heterogeneous-agent.git'
+                git branch: 'main', url: 'https://github.com/cofls6581/2023_swe.git'
             }
         }        
         stage('mvn') {
